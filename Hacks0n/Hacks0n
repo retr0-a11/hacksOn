@@ -1,0 +1,73 @@
+#!/bin/bash
+
+
+echo "  __ __   ____    __  __  _  _____  ___   ____   "
+echo " |  |  | /    |  /  ]|  |/ ]/ ___/ /   \ |    \  "
+echo " |  |  ||  o  | /  / |  ' /(   \_ |     ||  _  | "
+echo " |  _  ||     |/  /  |    \ \__  ||  O  ||  |  | "
+echo " |  |  ||  _  /   \_ |     \/  \ ||     ||  |  | "
+echo " |  |  ||  |  \     ||  .  |\    ||     ||  |  | "
+echo " |__|__||__|__|\____||__|\_| \___| \___/ |__|__| "
+echo "                                                 "
+echo "                echo por:retr0                   "
+
+
+
+
+
+
+
+
+
+echo "[1]instalar slowloris"
+echo "[2]instalar TBomb"
+echo "[3]instalar InfoG"
+echo "[4]instalar sherlock"
+echo "[5]instalar sslscan"
+echo "[6]instalar vulnx"
+echo "[7]instalar webkiller"
+echo "[8]instalar BeEF"
+echo "[9]instalar fbi"
+echo "[10]instalar Doxikong"
+echo "[11]instalar Impulse"
+echo "[12]instalar shodan-eye"
+echo "[13]instalar ufw"
+echo "[14]isntalar ruby"
+echo "[99]SALIR"
+
+
+echo -n "selecciona:"
+read s
+if [ $s = 1 ]; then
+     git clone https://github.com/gkbrk/slowloris.git
+elif [ $s = 2 ]; then
+       git clone https://github.com/TheSpeedX/TBomb.git
+elif [ $s = 3 ]; then
+       git clone https://github.com/haijuga7/InfoG.git
+elif [ $s = 4 ]; then
+       git clone https://github.com/sherlock-project/sherlock.git
+elif [ $s = 5 ]; then
+       apt install sslscan
+elif [ $s = 6 ]; then
+       git clone https://github.com/anouarbensaad/vulnx.git
+elif [ $s = 7 ]; then
+       git clone https://github.com/ultrasecurity/webkiller.git
+elif [ $s = 8 ]; then
+       git clone https://github.com/beefproject/beef.git
+elif [ $s = 9 ]; then
+       git clone https://github.com/xHak9x/fbi.git
+elif [ $s = 10 ]; then
+       git clone https://github.com/ctoANG/Doxikong-V2.git
+elif [ $s = 11 ]; then
+       git clone https://github.com/LimerBoy/Impulse.git
+elif [ $s = 12 ]; then
+       git clone https://github.com/BullsEye0/shodan-eye.git
+elif [ $s = 13 ]; then
+       apt install ufw
+elif [ $s = 14 ]; then
+       apt install ruby
+elif [ $s = 99 ]; then
+       exit 0
+else
+        echo "la opcion no esta en el script"
+fi
